@@ -1,0 +1,63 @@
+@import url(./normalize.css);
+
+:root {
+	--primary: #3a60e0;
+	--primaryDark: #0b1947;
+
+	--gray05: #e2e3e5;
+	--gray10: #c5c8cc;
+	--gray15: #a9aeb4;
+	--gray20: #8e949c;
+	--gray25: #737b85;
+	--gray30: #5a636e;
+	--gray35: #4b525b;
+	--gray40: #3c4249;
+	--gray45: #2e3237;
+	--gray50: #212427;
+	--gray55: #141517;
+
+	--black: var(--gray55);
+	--white: #fff;
+}
+
+:root {
+	--textRGB: 0, 0, 0;
+}
+
+:root {
+	--text05: rgba(var(--textRGB), 0.05);
+	--text10: rgba(var(--textRGB), 0.1);
+	--text15: rgba(var(--textRGB), 0.15);
+	--text20: rgba(var(--textRGB), 0.2);
+	--text25: rgba(var(--textRGB), 0.25);
+	--text30: rgba(var(--textRGB), 0.3);
+	--text35: rgba(var(--textRGB), 0.35);
+	--text40: rgba(var(--textRGB), 0.4);
+	--text45: rgba(var(--textRGB), 0.45);
+	--text50: rgba(var(--textRGB), 0.5);
+	--text55: rgba(var(--textRGB), 0.55);
+	--text60: rgba(var(--textRGB), 0.6);
+	--text65: rgba(var(--textRGB), 0.65);
+	--text70: rgba(var(--textRGB), 0.7);
+	--text75: rgba(var(--textRGB), 0.75);
+	--text80: rgba(var(--textRGB), 0.8);
+	--text85: rgba(var(--textRGB), 0.85);
+	--text90: rgba(var(--textRGB), 0.9);
+	--text95: rgba(var(--textRGB), 0.95);
+	--text00: rgba(var(--textRGB), 1);
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background: #eee;
+	color: var(--black);
+}
+
+main {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
